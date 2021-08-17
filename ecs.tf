@@ -1,7 +1,7 @@
 provider "aws" {
   region  = var.aws_region
   profile = var.aws_profile
-  secret_key = "my-secret-key"
+  secret_key = "my-secret-keys"
 }
 
 module "ecs" {
